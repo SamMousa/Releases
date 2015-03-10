@@ -1,0 +1,8 @@
+# Better safe than sorry.
+application/config/config*
+!application/config/config-sample*
+!application/config/config-defaults.php
+/tmp/assets/*
+/tmp/runtime/*
+/tmp/upload/*
+!.gitkeep
