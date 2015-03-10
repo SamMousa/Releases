@@ -1,2 +1,2 @@
 <?php
-return '3.0.0-alpha.2+150310';
+return '3.0.0-alpha.3+150310';
