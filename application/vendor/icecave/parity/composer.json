@@ -1,0 +1,41 @@
+{
+    "name": "icecave/parity",
+    "description": "A customizable deep comparison library.",
+    "keywords": [
+        "compare",
+        "comparison",
+        "equal",
+        "equality",
+        "less",
+        "greater",
+        "sort",
+        "sorting"
+    ],
+    "homepage": "https://github.com/IcecaveStudios/parity",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "James Harris",
+            "email": "james.harris@icecave.com.au",
+            "homepage": "https://github.com/jmalloc"
+        }
+    ],
+    "require": {
+        "php": ">=5.3",
+        "icecave/repr": "~1"
+    },
+    "require-dev": {
+        "eloquent/liberator": "~1",
+        "icecave/archer": "~1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Icecave\\Parity\\": "src"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-develop": "1.0.x-dev"
+        }
+    }
+}

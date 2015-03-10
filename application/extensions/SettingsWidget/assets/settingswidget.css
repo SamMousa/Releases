@@ -1,0 +1,70 @@
+.settingswidget {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+
+.settingswidget .boolean label{
+    margin-right: 10px;
+}
+
+.settingswidget > ul{
+    margin:0;padding:0;
+}
+.settingswidget > ul > li{
+list-style: none;
+}
+
+.form-core .control-group{
+margin-bottom: 5px;
+}
+
+
+.form-horizontal input + .help-block, .form-horizontal select + .help-block, .form-horizontal textarea + .help-block {
+    /* Set to 10px in 2.1, Removed in bootstrap 2.3 */
+    margin-top: 0;
+}
+
+.form-horizontal ul.wysihtml5-toolbar li {
+    overflow:visible;
+}
+#addnewsurvey ul.wysihtml5-toolbar li{
+    clear:none;
+}
+
+.settingswidget .jsoneditor-wrapper{
+    height:1em;/* set a heigth for heigth:100% on children*/
+    min-height:20em;/* set the min-height */
+    vertical-align: middle;
+}
+/*
+    Special layout for list settings (in table).
+*/
+.settingswidget .setting-list table{
+    width: 100%;
+}
+
+.setting-list .settings .setting{
+    text-align:center;
+    vertical-align:middle;
+    display:table-cell;
+}
+.setting-list .settings .setting:before, .setting-list .settings .setting:after {
+    content: none;
+    display: none;
+}
+.setting-list .settings .setting:after {
+    clear: none;
+}
+
+.settingswidget .select2-container .select2-choice {
+    height: 34px;
+    line-height: 34px;
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+.settingswidget .select2-container {
+    padding: 0px;
+    border: none;
+}

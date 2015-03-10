@@ -1,0 +1,37 @@
+{
+    "name": "icecave/semver",
+    "description": "A semantic version parser and comparison library.",
+    "keywords": [
+        "semantic",
+        "version",
+        "semver",
+        "compare",
+        "comparison"
+    ],
+    "homepage": "https://github.com/IcecaveStudios/semver",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "James Harris",
+            "email": "james.harris@icecave.com.au",
+            "homepage": "https://github.com/jmalloc"
+        }
+    ],
+    "require": {
+        "php": ">=5.3",
+        "icecave/parity": "~1"
+    },
+    "require-dev": {
+        "icecave/archer": "~1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Icecave\\SemVer\\": "src"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-develop": "3.0.x-dev"
+        }
+    }
+}

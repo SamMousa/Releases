@@ -1,0 +1,82 @@
+build_settings:
+    clone_depth: 1 # depth of 1 is a shallow clone, remove this line to clone entire repo
+    verbose: true
+    ignore:
+        - "application/vendor"
+        - "tests"
+        - "third_party"
+        - "application/third_party"
+        - "locale"
+    mysql:
+        host: "localhost"
+        user: "root"
+        pass: ""
+
+setup:
+#    mysql:
+#        - "DROP DATABASE IF EXISTS test;"
+#        - "CREATE DATABASE test;"
+#        - "GRANT ALL PRIVILEGES ON test.* TO test@'localhost' IDENTIFIED BY 'test';"
+    composer:
+        action: "install"
+
+test:
+    php_parallel_lint: 
+        allow_failures: false
+#    php_mess_detector:
+#        allow_failures: true
+#        zero_config: true
+#        ignore:
+#            - "application/vendor"
+#            - "application/tests"
+#            - "application/logs"
+#            - "application/helpers/Zend"
+#            - "application/third_party"
+#            - "build"
+#            - "docs"
+#            - "fonts"
+#            - "images"
+#            - "installer"
+#            - "locale"
+#            - "plugins"
+#            - "scripts"
+#            - "styles"
+#            - "styles-public"
+#            - "templates"
+#            - "themes"
+#            - "third_party"
+#            - "tmp"
+#            - "upload"
+#
+#
+
+        suffixes:
+            - "php"
+#    php_unit:
+#        config:
+#            - "PHPUnit-all.xml"
+#            - "PHPUnit-ubuntu-fix.xml"
+#        directory:
+#            - "tests/"
+#        run_from: "phpunit/"
+#        coverage: "tests/logs/coverage"
+#    php_mess_detector:
+#        allow_failures: false
+#        suffixes:
+#            - "php"
+#    php_code_sniffer:
+#        standard: "PSR2"
+#    php_cpd:
+#        allow_failures: true
+#    grunt:
+#        task: "build"
+#    php_docblock_checker:
+#        allow_failures: true
+    php_loc:
+        
+    shell:
+        - "cd %BUILD_PATH% && application/limesurvey build release --interactive=false" 
+complete:
+#    mysql:
+#        - "DROP DATABASE IF EXISTS test;"
+success:

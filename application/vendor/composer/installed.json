@@ -1,0 +1,920 @@
+[
+    {
+        "name": "twbs/bootstrap",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/twbs/bootstrap.git",
+            "reference": "1383b883288887a90e6f04c8752364f3c85ded2a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/twbs/bootstrap/zipball/1383b883288887a90e6f04c8752364f3c85ded2a",
+            "reference": "1383b883288887a90e6f04c8752364f3c85ded2a",
+            "shasum": ""
+        },
+        "replace": {
+            "twitter/bootstrap": "self.version"
+        },
+        "time": "2015-03-10 00:47:51",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.3.x-dev"
+            }
+        },
+        "installation-source": "source",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Jacob Thornton",
+                "email": "jacobthornton@gmail.com"
+            },
+            {
+                "name": "Mark Otto",
+                "email": "markdotto@gmail.com"
+            }
+        ],
+        "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
+        "homepage": "http://getbootstrap.com",
+        "keywords": [
+            "JS",
+            "css",
+            "framework",
+            "front-end",
+            "less",
+            "mobile-first",
+            "responsive",
+            "web"
+        ]
+    },
+    {
+        "name": "crisu83/yiistrap",
+        "version": "dev-bs3",
+        "version_normalized": "dev-bs3",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/crisu83/yiistrap.git",
+            "reference": "94dfec5b642edc7f9bb50ffbabb476707f86e6ab"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/crisu83/yiistrap/zipball/94dfec5b642edc7f9bb50ffbabb476707f86e6ab",
+            "reference": "94dfec5b642edc7f9bb50ffbabb476707f86e6ab",
+            "shasum": ""
+        },
+        "require": {
+            "twbs/bootstrap": ">=3.1.1"
+        },
+        "require-dev": {
+            "apigen/apigen": "~4.0",
+            "codeception/codeception": "@stable",
+            "crisu83/yii-composer": ">=1.0.0",
+            "yiisoft/yii": ">=1.1.13"
+        },
+        "time": "2015-02-27 14:48:18",
+        "type": "library",
+        "extra": {
+            "yii-install-writable": [
+                "tests/_log"
+            ]
+        },
+        "installation-source": "source",
+        "autoload": {
+            "classmap": [
+                "behaviors/",
+                "components/",
+                "form/",
+                "helpers/",
+                "widgets/",
+                "gii/bootstrap/BootstrapCode.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Christoffer Niska",
+                "email": "christoffer.niska@gmail.com",
+                "homepage": "http://www.cniska.net/"
+            },
+            {
+                "name": "Antonio Ramirez",
+                "email": "ramirez.cobos@gmail.com",
+                "homepage": "http://www.ramirezcobos.com/"
+            }
+        ],
+        "description": "Twitter Bootstrap for the Yii PHP framework.",
+        "keywords": [
+            "bootstrap",
+            "yii"
+        ]
+    },
+    {
+        "name": "2amigos/yiiwheels",
+        "version": "dev-bs3",
+        "version_normalized": "dev-bs3",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/2amigos/yiiwheels.git",
+            "reference": "0570b9fd9bb333edd967dad0cb31409ade0367c8"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/2amigos/yiiwheels/zipball/0570b9fd9bb333edd967dad0cb31409ade0367c8",
+            "reference": "0570b9fd9bb333edd967dad0cb31409ade0367c8",
+            "shasum": ""
+        },
+        "require": {
+            "crisu83/yiistrap": "dev-bs3"
+        },
+        "require-dev": {
+            "php": ">=5.3.0",
+            "yiisoft/yii": ">=1.1.13"
+        },
+        "time": "2015-01-23 15:56:34",
+        "type": "yii-extension",
+        "installation-source": "source",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Antonio Ramirez",
+                "email": "ramirez.cobos@gmail.com",
+                "homepage": "http://www.ramirezcobos.com/"
+            }
+        ],
+        "description": "Extension library for Yiistrap, Yii Twitter's Bootstrap.",
+        "keywords": [
+            "bootstrap",
+            "yii"
+        ]
+    },
+    {
+        "name": "yiisoft/yii",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/yiisoft/yii.git",
+            "reference": "b23b41babe97da6843241098acb525a2982bac42"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/yiisoft/yii/zipball/b23b41babe97da6843241098acb525a2982bac42",
+            "reference": "b23b41babe97da6843241098acb525a2982bac42",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.1.0"
+        },
+        "time": "2015-03-05 15:20:05",
+        "bin": [
+            "framework/yiic"
+        ],
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "classmap": [
+                "framework/YiiBase.php",
+                "framework/yii.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Qiang Xue",
+                "email": "qiang.xue@gmail.com",
+                "homepage": "http://www.yiiframework.com/",
+                "role": "Founder and project lead"
+            },
+            {
+                "name": "Alexander Makarov",
+                "email": "sam@rmcreative.ru",
+                "homepage": "http://rmcreative.ru/",
+                "role": "Core framework development"
+            },
+            {
+                "name": "Maurizio Domba",
+                "homepage": "http://mdomba.info/",
+                "role": "Core framework development"
+            },
+            {
+                "name": "Carsten Brandt",
+                "email": "mail@cebe.cc",
+                "homepage": "http://cebe.cc/",
+                "role": "Core framework development"
+            },
+            {
+                "name": "Wei Zhuo",
+                "email": "weizhuo@gmail.com",
+                "role": "Project site maintenance and development"
+            },
+            {
+                "name": "Sebastián Thierer",
+                "email": "sebas@artfos.com",
+                "role": "Component development"
+            },
+            {
+                "name": "Jeffrey Winesett",
+                "email": "jefftulsa@gmail.com",
+                "role": "Documentation and marketing"
+            },
+            {
+                "name": "Timur Ruziev",
+                "email": "resurtm@gmail.com",
+                "homepage": "http://resurtm.com/",
+                "role": "Core framework development"
+            },
+            {
+                "name": "Paul Klimov",
+                "email": "klimov.paul@gmail.com",
+                "role": "Core framework development"
+            }
+        ],
+        "description": "Yii Web Programming Framework",
+        "homepage": "http://www.yiiframework.com/",
+        "keywords": [
+            "framework",
+            "yii"
+        ]
+    },
+    {
+        "name": "tecnick.com/tcpdf",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/tecnickcom/TCPDF.git",
+            "reference": "a2e8f5b505a7a14a4ed960313c4baf699fd1f4bb"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/tecnickcom/TCPDF/zipball/a2e8f5b505a7a14a4ed960313c4baf699fd1f4bb",
+            "reference": "a2e8f5b505a7a14a4ed960313c4baf699fd1f4bb",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2015-01-28 18:51:40",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "classmap": [
+                "fonts",
+                "config",
+                "include",
+                "tcpdf.php",
+                "tcpdf_parser.php",
+                "tcpdf_import.php",
+                "tcpdf_barcodes_1d.php",
+                "tcpdf_barcodes_2d.php",
+                "include/tcpdf_colors.php",
+                "include/tcpdf_filters.php",
+                "include/tcpdf_font_data.php",
+                "include/tcpdf_fonts.php",
+                "include/tcpdf_images.php",
+                "include/tcpdf_static.php",
+                "include/barcodes/datamatrix.php",
+                "include/barcodes/pdf417.php",
+                "include/barcodes/qrcode.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPLv3"
+        ],
+        "authors": [
+            {
+                "name": "Nicola Asuni",
+                "email": "info@tecnick.com",
+                "homepage": "http://nicolaasuni.tecnick.com"
+            }
+        ],
+        "description": "TCPDF is a PHP class for generating PDF documents and barcodes.",
+        "homepage": "http://www.tcpdf.org/",
+        "keywords": [
+            "PDFD32000-2008",
+            "TCPDF",
+            "barcodes",
+            "datamatrix",
+            "pdf",
+            "pdf417",
+            "qrcode"
+        ]
+    },
+    {
+        "name": "phpmailer/phpmailer",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/PHPMailer/PHPMailer.git",
+            "reference": "27cc5528ad8b3d1ad67d0eef561135fec7ccb90b"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/27cc5528ad8b3d1ad67d0eef561135fec7ccb90b",
+            "reference": "27cc5528ad8b3d1ad67d0eef561135fec7ccb90b",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.0.0"
+        },
+        "require-dev": {
+            "phpdocumentor/phpdocumentor": "*",
+            "phpunit/phpunit": "4.3.*"
+        },
+        "time": "2015-03-06 17:57:22",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "classmap": [
+                "class.phpmailer.php",
+                "class.pop3.php",
+                "class.smtp.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL-2.1"
+        ],
+        "authors": [
+            {
+                "name": "Jim Jagielski",
+                "email": "jimjag@gmail.com"
+            },
+            {
+                "name": "Marcus Bointon",
+                "email": "phpmailer@synchromedia.co.uk"
+            },
+            {
+                "name": "Andy Prevost",
+                "email": "codeworxtech@users.sourceforge.net"
+            },
+            {
+                "name": "Brent R. Matzelle"
+            }
+        ],
+        "description": "PHPMailer is a full-featured email creation and transfer class for PHP"
+    },
+    {
+        "name": "jsonrpc/jsonrpc",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/johnstevenson/jsonrpc.git",
+            "reference": "8cd385ae8b10bfe74d52a22661c8a0511b04fd48"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/johnstevenson/jsonrpc/zipball/8cd385ae8b10bfe74d52a22661c8a0511b04fd48",
+            "reference": "8cd385ae8b10bfe74d52a22661c8a0511b04fd48",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2013-04-12 10:33:44",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "JsonRpc": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "John Stevenson",
+                "email": "john-stevenson@blueyonder.co.uk"
+            }
+        ],
+        "description": "JSON-RPC 2.0 client/server implementation",
+        "homepage": "http://github.com/johnstevenson/jsonrpc",
+        "keywords": [
+            "api",
+            "json",
+            "json-rpc",
+            "rpc"
+        ]
+    },
+    {
+        "name": "ar-php/ar-php",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/tawfekov/ar-php.git",
+            "reference": "92657a9ef39cb1aad4b08364895523939dcd3803"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/tawfekov/ar-php/zipball/92657a9ef39cb1aad4b08364895523939dcd3803",
+            "reference": "92657a9ef39cb1aad4b08364895523939dcd3803",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2012-11-03 12:29:33",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "Arphp": "src/"
+            },
+            " classmap ": [
+                "autoload_classmap.php "
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL"
+        ],
+        "authors": [
+            {
+                "name": "Khaled Al-Sham'aa",
+                "email": "khaled@ar-php.org",
+                "homepage": "http://www.ar-php.org/"
+            },
+            {
+                "name": "tawfek daghistani",
+                "email": "tawfekov@gmail.com",
+                "homepage": "http://www.dagho.com/"
+            }
+        ],
+        "description": "helper libaray for dealing with arabic language",
+        "homepage": "http://www.ar-php.org/"
+    },
+    {
+        "name": "cakephp/utility",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/cakephp/utility.git",
+            "reference": "a98b99656b5c14d76d270b7e5751f3c522e59081"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/cakephp/utility/zipball/a98b99656b5c14d76d270b7e5751f3c522e59081",
+            "reference": "a98b99656b5c14d76d270b7e5751f3c522e59081",
+            "shasum": ""
+        },
+        "time": "2015-02-09 09:53:51",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Cake\\Utility\\": "."
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "CakePHP Community",
+                "homepage": "http://cakephp.org"
+            }
+        ],
+        "description": "CakePHP Utility classes such as Inflector, String, Hash, and Security"
+    },
+    {
+        "name": "sam-it/php-auto-update",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/SAM-IT/php-auto-update.git",
+            "reference": "08e8a366f00b82ff77c84d943ec91a1d072554b8"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/SAM-IT/php-auto-update/zipball/08e8a366f00b82ff77c84d943ec91a1d072554b8",
+            "reference": "08e8a366f00b82ff77c84d943ec91a1d072554b8",
+            "shasum": ""
+        },
+        "time": "2015-03-10 10:00:07",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "SamIT\\AutoUpdater\\": [
+                    "src/"
+                ]
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Sam",
+                "email": "sam@mousa.nl"
+            }
+        ],
+        "description": "Library for creating self-updating PHP applications."
+    },
+    {
+        "name": "icecave/repr",
+        "version": "dev-develop",
+        "version_normalized": "dev-develop",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/IcecaveStudios/repr.git",
+            "reference": "99f3e6e2ce65468bc88380a066c0e8eea5c182a4"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/IcecaveStudios/repr/zipball/99f3e6e2ce65468bc88380a066c0e8eea5c182a4",
+            "reference": "99f3e6e2ce65468bc88380a066c0e8eea5c182a4",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3"
+        },
+        "require-dev": {
+            "icecave/archer": "~1"
+        },
+        "time": "2015-02-04 23:25:18",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-develop": "1.0.x-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Icecave\\Repr\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "James Harris",
+                "email": "james.harris@icecave.com.au",
+                "homepage": "https://github.com/jmalloc"
+            }
+        ],
+        "description": "A library for generating string representations of any value, inspired by Python's reprlib library.",
+        "homepage": "https://github.com/IcecaveStudios/repr",
+        "keywords": [
+            "human",
+            "readable",
+            "repr",
+            "representation",
+            "string"
+        ]
+    },
+    {
+        "name": "icecave/parity",
+        "version": "dev-develop",
+        "version_normalized": "dev-develop",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/IcecaveStudios/parity.git",
+            "reference": "ccd81d359e94da09655edaf32c4a8a1e4e86105f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/IcecaveStudios/parity/zipball/ccd81d359e94da09655edaf32c4a8a1e4e86105f",
+            "reference": "ccd81d359e94da09655edaf32c4a8a1e4e86105f",
+            "shasum": ""
+        },
+        "require": {
+            "icecave/repr": "~1",
+            "php": ">=5.3"
+        },
+        "require-dev": {
+            "eloquent/liberator": "~1",
+            "icecave/archer": "~1"
+        },
+        "time": "2014-11-18 02:59:18",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-develop": "1.0.x-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Icecave\\Parity\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "James Harris",
+                "email": "james.harris@icecave.com.au",
+                "homepage": "https://github.com/jmalloc"
+            }
+        ],
+        "description": "A customizable deep comparison library.",
+        "homepage": "https://github.com/IcecaveStudios/parity",
+        "keywords": [
+            "compare",
+            "comparison",
+            "equal",
+            "equality",
+            "greater",
+            "less",
+            "sort",
+            "sorting"
+        ]
+    },
+    {
+        "name": "icecave/semver",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/IcecaveStudios/semver.git",
+            "reference": "ca4277fb4000019e0cb50e72b272904d9e3d4557"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/IcecaveStudios/semver/zipball/ca4277fb4000019e0cb50e72b272904d9e3d4557",
+            "reference": "ca4277fb4000019e0cb50e72b272904d9e3d4557",
+            "shasum": ""
+        },
+        "require": {
+            "icecave/parity": "~1",
+            "php": ">=5.3"
+        },
+        "require-dev": {
+            "icecave/archer": "~1"
+        },
+        "time": "2015-03-09 04:51:38",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-develop": "3.0.x-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Icecave\\SemVer\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "James Harris",
+                "email": "james.harris@icecave.com.au",
+                "homepage": "https://github.com/jmalloc"
+            }
+        ],
+        "description": "A semantic version parser and comparison library.",
+        "homepage": "https://github.com/IcecaveStudios/semver",
+        "keywords": [
+            "compare",
+            "comparison",
+            "semantic",
+            "semver",
+            "version"
+        ]
+    },
+    {
+        "name": "react/promise",
+        "version": "v2.2.0",
+        "version_normalized": "2.2.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/reactphp/promise.git",
+            "reference": "365fcee430dfa4ace1fbc75737ca60ceea7eeeef"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/reactphp/promise/zipball/365fcee430dfa4ace1fbc75737ca60ceea7eeeef",
+            "reference": "365fcee430dfa4ace1fbc75737ca60ceea7eeeef",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4.0"
+        },
+        "time": "2014-12-30 13:32:42",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.0-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "React\\Promise\\": "src/"
+            },
+            "files": [
+                "src/functions_include.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Jan Sorgalla",
+                "email": "jsorgalla@googlemail.com"
+            }
+        ],
+        "description": "A lightweight implementation of CommonJS Promises/A for PHP"
+    },
+    {
+        "name": "guzzlehttp/streams",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/guzzle/streams.git",
+            "reference": "d1f8a6c55f0f753cfd6f6755856473eb02cedb19"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/guzzle/streams/zipball/d1f8a6c55f0f753cfd6f6755856473eb02cedb19",
+            "reference": "d1f8a6c55f0f753cfd6f6755856473eb02cedb19",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~4.0"
+        },
+        "time": "2015-01-22 00:01:34",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.0-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "GuzzleHttp\\Stream\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Michael Dowling",
+                "email": "mtdowling@gmail.com",
+                "homepage": "https://github.com/mtdowling"
+            }
+        ],
+        "description": "Provides a simple abstraction over streams of data",
+        "homepage": "http://guzzlephp.org/",
+        "keywords": [
+            "Guzzle",
+            "stream"
+        ]
+    },
+    {
+        "name": "guzzlehttp/ringphp",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/guzzle/RingPHP.git",
+            "reference": "c2397220e1c89a84e4776af71e53eeb30193fd03"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/guzzle/RingPHP/zipball/c2397220e1c89a84e4776af71e53eeb30193fd03",
+            "reference": "c2397220e1c89a84e4776af71e53eeb30193fd03",
+            "shasum": ""
+        },
+        "require": {
+            "guzzlehttp/streams": "~3.0",
+            "php": ">=5.4.0",
+            "react/promise": "~2.0"
+        },
+        "require-dev": {
+            "ext-curl": "*",
+            "phpunit/phpunit": "~4.0"
+        },
+        "suggest": {
+            "ext-curl": "Guzzle will use specific adapters if cURL is present"
+        },
+        "time": "2015-02-26 22:31:51",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "GuzzleHttp\\Ring\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Michael Dowling",
+                "email": "mtdowling@gmail.com",
+                "homepage": "https://github.com/mtdowling"
+            }
+        ],
+        "description": "Provides a simple API and specification that abstracts away the details of HTTP into a single PHP function."
+    },
+    {
+        "name": "guzzlehttp/guzzle",
+        "version": "5.2.0",
+        "version_normalized": "5.2.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/guzzle/guzzle.git",
+            "reference": "475b29ccd411f2fa8a408e64576418728c032cfa"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/guzzle/guzzle/zipball/475b29ccd411f2fa8a408e64576418728c032cfa",
+            "reference": "475b29ccd411f2fa8a408e64576418728c032cfa",
+            "shasum": ""
+        },
+        "require": {
+            "guzzlehttp/ringphp": "~1.0",
+            "php": ">=5.4.0"
+        },
+        "require-dev": {
+            "ext-curl": "*",
+            "phpunit/phpunit": "~4.0",
+            "psr/log": "~1.0"
+        },
+        "time": "2015-01-28 01:03:29",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "5.0-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "GuzzleHttp\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Michael Dowling",
+                "email": "mtdowling@gmail.com",
+                "homepage": "https://github.com/mtdowling"
+            }
+        ],
+        "description": "Guzzle is a PHP HTTP client library and framework for building RESTful web service clients",
+        "homepage": "http://guzzlephp.org/",
+        "keywords": [
+            "client",
+            "curl",
+            "framework",
+            "http",
+            "http client",
+            "rest",
+            "web service"
+        ]
+    }
+]

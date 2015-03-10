@@ -1,0 +1,49 @@
+{
+    "name" : "sammousa/limesurvey",
+    "description" : "Limesurvey for composer.",
+    "license" : "GPL-2.0",
+    "minimum-stability": "dev",
+    "config": {
+        "vendor-dir": "application/vendor"
+    },
+    "require": {
+        "crisu83/yiistrap": "dev-bs3",
+		"2amigos/yiiwheels": "dev-bs3",
+		"yiisoft/yii" : "dev-master",
+		"tecnick.com/tcpdf": "dev-master",
+		"phpmailer/phpmailer": "dev-master",
+		"jsonrpc/jsonrpc" : "dev-master",
+        "ar-php/ar-php": "dev-master",
+        "guzzlehttp/guzzle": "~5.0@dev",
+        "cakephp/utility": "dev-master",
+        "sam-it/php-auto-update": "dev-master",
+        "icecave/semver": "dev-master"
+    },
+	"require-dev" : {
+		
+	},
+    "autoload" : {
+        "classmap" : [
+            "application/extensions/SettingsWidget",
+            "application/core/db",
+            "application/core",
+            "application/vendor/2amigos/yiiwheels",
+            "application/vendor/yiisoft/yii/framework/cli/commands"
+        ],
+        "psr-4" : {
+            "ls\\migrations\\" : [
+                "application/migrations"
+            ],
+            "ls\\cli\\" : [
+                "application/commands"
+            ],
+            "ls\\controllers\\" : [
+                "application/controllers"
+            ],
+            "ls\\pluginmanager\\" : [
+                "application/libraries/PluginManager",
+                "application/libraries/PluginManager/Storage"
+            ]
+        }
+    }
+}
