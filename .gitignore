@@ -1,5 +1,6 @@
 # Better safe than sorry.
 application/config/config*
+application/runtime/*
 !application/config/config-sample*
 !application/config/config-defaults.php
 /tmp/assets/*
